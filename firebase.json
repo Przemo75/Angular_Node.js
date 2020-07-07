@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "kolekcja",
+      "public": "dist/kolekcja",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

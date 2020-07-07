@@ -1,0 +1,59 @@
+<form [formGroup]="form">
+    <div class="row">
+        <div class="col-sm-8">
+            <mat-form-field>
+                <input matInput formControlName="nazwa" placeholder="Nazwa" #nazwaInput>
+                <mat-error *ngIf="form.get('nazwa').hasError('required')">Pole wymagane</mat-error>
+            </mat-form-field>
+        </div>
+        <div class="col-sm-8">
+            <mat-form-field>
+                <input matInput formControlName="seria" placeholder="Seria" #seriaInput>
+                <mat-error *ngIf="form.get('seria').hasError('required')">Pole wymagane</mat-error>
+            </mat-form-field>
+        </div>
+        <div class="col-sm-8">
+            <mat-form-field>
+                <input matInput formControlName="producent" placeholder="Producent" #producentInput>
+                <mat-error *ngIf="form.get('producent').hasError('required')">Pole wymagane</mat-error>
+            </mat-form-field>
+        </div>
+        <div class="col-sm-8">
+            <mat-form-field>
+                <input matInput formControlName="nr_katalogowy" placeholder="Nr katalogowy" #nr_katalogowyInput>
+                <mat-error *ngIf="form.get('nr_katalogowy').hasError('required')">Pole wymagane</mat-error>
+            </mat-form-field>
+        </div>
+        <div class="col-sm-8">
+            <mat-form-field>
+                <input matInput formControlName="skala" placeholder="Skala" #skalaInput>
+            </mat-form-field>
+        </div>
+        <div class="col-sm-8">
+            <mat-form-field>
+                <input matInput formControlName="cena" placeholder="Cena" #cenaInput>
+            </mat-form-field>
+        </div>
+        <div class="col-sm-8">
+            <mat-form-field>
+                <input matInput formControlName="wymiary_modelu" placeholder="Wymiary modelu" #wymiary_modeluInput>
+            </mat-form-field>
+        </div>
+        <div class="col-sm-8">
+            <mat-form-field>
+                <input matInput formControlName="ilosc_klockow" placeholder="Ilość klocków" #ilosc_klockowInput>
+                <mat-error>Pole wymagane</mat-error>
+            </mat-form-field>
+        </div>
+        <div class="col-sm-8">
+            <mat-form-field>
+                <input matInput formControlName="obraz" placeholder="Obraz" #obrazInput>
+            </mat-form-field>
+        </div>
+        <div class="col-sm-8">
+            <mat-form-field>
+                <input matInput formControlName="opis" placeholder="Opis" #opisInput>
+            </mat-form-field>
+        </div>
+    </div>
+</form>

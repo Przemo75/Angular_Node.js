@@ -1,0 +1,25 @@
+<form [formGroup]="form">
+    <div class="row">
+        <div class="col-sm-8">
+            <mat-form-field>
+                <input matInput formControlName="producent" placeholder="Producent" #producentInput>
+                <mat-error *ngIf="form.get('producent').hasError('required')">Pole wymagane</mat-error>
+            </mat-form-field>
+        </div>
+       <div class="col-sm-8">
+            <mat-form-field>
+                <input matInput formControlName="obraz" placeholder="Obraz" #obrazInput>
+            </mat-form-field>
+        </div>
+        <div class="col-sm-8">
+            <mat-form-field>
+                <input matInput formControlName="opis" placeholder="Opis" #opisInput>
+            </mat-form-field>
+        </div>
+        <div class="col-sm-8">
+            <mat-form-field>
+                <input matInput formControlName="link" placeholder="Link" #linkInput>
+            </mat-form-field>
+        </div>
+    </div>
+</form>

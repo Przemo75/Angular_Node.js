@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">
+    <div class="container">
+        <mat-icon class="d-none d-sm-block logout-icon float-right">power_settings_new</mat-icon>
+        <span class="bar-title">Kolekcja Modeli</span>
+		<span class="bar-menu"><a routerLink="/dashboard/home"> Home </a></span>
+		<span class="bar-menu"><a routerLink="/dashboard/modele"> Cobi </a></span>
+		<span class="bar-menu"><a routerLink="/dashboard/modele2"> Italeri </a></span>
+        <span class="d-none d-sm-block user-login float-right">Hello, Przemo</span>
+    </div>
+</mat-toolbar>
+<div class="container">
+	<router-outlet></router-outlet>
+</div>

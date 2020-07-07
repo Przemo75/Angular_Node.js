@@ -1,0 +1,42 @@
+@media screen and (min-width: 576px) {
+    .logout-icon {
+        font-size: 35px;
+        cursor: pointer;
+        padding-top: 5px;
+    }
+    
+    .bar-title {
+        padding-left: 10px;
+    }
+
+    .bar-menu {
+        padding-left: 20px;
+        color: fff000;
+        font-size: 16px;
+    }
+
+    .user-login {
+        font-size: 15px;
+        padding-right: 30px;
+        padding-top: 5px;
+    }
+    
+    .logo {
+        background: white;
+        cursor: pointer;
+        padding: 4px;
+        border-radius: 10px;
+        height: 50px;
+    }
+}
+
+.bar-menu {
+    padding-left: 10px;
+    color: fff000;
+    font-size: 16px;
+}
+
+a:link { color: pink } /* unvisited links */
+a:visited { color: white } /* visited links */
+a:hover { color: pink } /* user hovers */
+a:active { color: pink } /* active links */

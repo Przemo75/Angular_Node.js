@@ -1,0 +1,11 @@
+<div class="modele2-container">  
+   
+  <div class="row">
+    <div class="col-12 col-sm-12 col-md-6" *ngFor="let model of modele2s$ | async">
+      <app-modele2-karta [modelik]="model"> </app-modele2-karta> 
+    </div>
+  </div>
+
+  <button (click)="openNewModelModal()" mat-fab color="accent" id="new-modele2-button">+</button>
+
+</div>

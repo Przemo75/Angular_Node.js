@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "kolekcja-modeli": {
+      "hosting": {
+        "kolekcja": [
+          "kolekcja-modeli"
+        ]
+      }
+    }
+  }
+}
