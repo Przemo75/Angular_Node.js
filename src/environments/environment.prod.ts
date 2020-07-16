@@ -7,6 +7,6 @@ export const environment = {
 	projectId: "kolekcja-modeli",
 	storageBucket: "kolekcja-modeli.appspot.com",
 	messagingSenderId: "415296524309",
-	appId: "1:415296524309:web:3c956efa440f31b96cbe1c"  }
+	appId: "1:415296524309:web:3c956efa440f31b96cbe1c"
   }
 };
